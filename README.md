@@ -1,5 +1,5 @@
 # vue_cms
-dtcmsdb4.sql ：是 mysql数据库的脚本
+dtcmsdb4.sql ：是 mysql数据库的脚本 数据库设置图片在后台文件夹的图片中
 
 # 步骤
 ## 服务器端配置
