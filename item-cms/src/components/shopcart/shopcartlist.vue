@@ -15,9 +15,7 @@
             </div>
             <!-- 3.0 商品名称价格等信息-->
             <div class="shopContent">
-                <h4>
-                                           {{item.title}}
-                                        </h4>
+                <h4>{{item.title}}</h4>
                 <p>
                     <span>{{item.sell_price}}</span>&nbsp;商品数量:{{item.cou}}
                 </p>
@@ -35,10 +33,7 @@
     </div>
 </template>
 <style scoped>
-/**
-        购物车列表
-    */
-
+/*购物车列表*/
 .shopCartListStyle {
     display: flex;
     margin-top: 5px;

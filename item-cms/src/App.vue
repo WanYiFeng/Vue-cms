@@ -13,7 +13,7 @@
             <router-view></router-view>
         <nav class="mui-bar mui-bar-tab">
             <router-link class="mui-tab-item"
-                         to="home">
+                         to="/home">
                 <span class="mui-icon mui-icon-home"></span>
                 <span class="mui-tab-label">首页</span>
             </router-link>
@@ -23,7 +23,7 @@
                 <span class="mui-tab-label"></span>
             </router-link>
             <router-link class="mui-tab-item "
-                         to="shopCart">
+                         to="/shopCart">
                 <span class="mui-icon mui-icon-contact"><span class="mui-badge" id = "shopNum">{{shopNumber}}</span></span>
                 <span class="mui-tab-label">购物车</span>
             </router-link>

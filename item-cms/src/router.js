@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 //roter
-import App from './App'
 import home from './components/home/home.vue'
 import newslist from './components/news/newsList.vue'
 import newslnfo from './components/news/newsInfo.vue'

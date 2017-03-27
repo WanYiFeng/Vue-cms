@@ -21,8 +21,6 @@ import "../static/css/public.css"
 Vue.filter("timeFilter", (input, str = "YYYY-MM-DD") => {
     return moment(input).format(str);
 })
-
-
 Vue.config.productionTip = false
 new Vue({
     el: '#app',
