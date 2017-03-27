@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import resource from 'vue-resource'
 Vue.use(resource)
-const host = "http://127.0.0.1:8888/"
+const host = "http://webhm.top:8899/"
 Vue.prototype.getDataGet = function(url, callback) {
     this.$http.get(host + url).then(res => {
         callback(res.body)
